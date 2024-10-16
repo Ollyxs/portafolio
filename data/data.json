@@ -1,0 +1,123 @@
+{
+  "title": "Lucas J. Ollarce (Ollyxs) | Portafolio",
+  "description": "Soy Lucas, estudiante de Ingeniería en Informática.",
+  "image": "/avatar.jpg",
+  "avatar": "/avatar.jpg",
+  "name": "Lucas J. Ollarce (Ollyxs)",
+  "skill": "Programador, Estudiante, Desarrollador Web",
+  "location": "Mendoza, Argentina",
+  "media": {
+    "email": "lucasollarce@gmail.com",
+    "cv": "/data/cv.pdf",
+    "github": "https://github.com/ollyxs",
+    "likedin": "https://linkedin.com/in/lucas-ollarce-54b508232"
+  },
+  "about": "Soy Lucas, estudiante de Ingeniería en Informática en la Universidad de Mendoza. Me apasiona la programación, Linux y el desarrollo backend. Actualmente estoy aprendiendo nuevas tecnologías y mejorando mis habilidades en el desarrollo de software.",
+  "technologies": [
+    {
+      "icon": "devicon-python-plain",
+      "name": "Python"
+    },
+    {
+      "icon": "devicon-bash-plain",
+      "name": "Shell script"
+    },
+    {
+      "icon": "devicon-c-plain",
+      "name": "C"
+    },
+    {
+      "icon": "devicon-javascript-plain",
+      "name": "Javascript"
+    }
+  ],
+  "experience": [
+    {
+      "icon": "terminal",
+      "title": "Fuesmen",
+      "subtitle": "Prácticas Profesionales",
+      "description": "Programo software para gestionar datos de aceleradores lineares",
+      "date": "2024 - Actualidad"
+    },
+    {
+      "icon": "drumstick",
+      "title": "La Cocina de Olga",
+      "subtitle": "Atención al cliente",
+      "description": "Me encargo de la atención al cliente y la caja en una rotisería",
+      "date": "2021 - Actualidad"
+    },
+    {
+      "icon": "radio",
+      "title": "Rosario Sonando",
+      "subtitle": "Programador",
+      "description": "Desarrolle una app para escuchar radio online en Android",
+      "date": "2015 - 2017"
+    }
+  ],
+  "projects": [
+    {
+      "icon": "brain-circuit",
+      "title": "IA-Brain-Tumor",
+      "subtitle": "Inteligencia Artificial",
+      "description": "Un modelo de visión por computadora para la clasificación binaria de imágenes de rayos X del cerebro que predice si tiene un tumor o está sano.",
+      "technologies": [
+        {
+          "icon": "devicon-python-plain",
+          "name": "Python"
+        },
+        {
+          "icon": "devicon-jupyter-plain-wordmark",
+          "name": "Jupyter Notebook"
+        }
+      ],
+      "image": "/project_1.jpg",
+      "github": "https://github.com/Ollyxs/IA-Brain-Tumor"
+    },
+    {
+      "icon": "bug-off",
+      "title": "Academic Scrapy",
+      "subtitle": "Web scraping",
+      "description": "Servidor multicliente que realiza web scraping a motores de búsqueda académicos.",
+      "technologies": [
+        {
+          "icon": "devicon-python-plain",
+          "name": "Python"
+        }
+      ],
+      "image": "/project_2.jpeg",
+      "github": "https://github.com/Ollyxs/academic-scrapy"
+    }
+  ],
+  "training": [
+    {
+      "icon": "backpack",
+      "title": "Escuela N° 4117 - Ejercito de los Andes",
+      "subtitle": "Técnico en Equipos e Instalaciones Electromecánicas",
+      "description": "Secundario técnico enfocado en construcciones edilicias, automatización y electromeánica.",
+      "date": "Completado",
+      "certificate": "https://dti.mendoza.edu.ar/gem/ingreso/publico/escuela/1105/2"
+    },
+    {
+      "icon": "graduation-cap",
+      "title": "Universidad de Mendoza",
+      "subtitle": "Facultad de Ingeniería en Informática",
+      "description": "El Ingeniero en Informática es un profesional capacitado para definir y evaluar proyectos en términos de requerimientos de hardware, software de base y aplicación, recursos humanos, costos y eficiencias a nivel gerencial. Puede dirigir los proyectos desde el inicio hasta su implementación final. Cuenta con toda la base de formación ingenieril de las ciencias físico-matemáticas y con las herramientas de programación de sistemas tele informáticos y plataformas operativas, con especial énfasis en la teoría de la información.",
+      "date": "Cursando",
+      "certificate": "https://um.edu.ar/"
+    }
+  ],
+  "extras": [
+    {
+      "image": "/extra_1.jpg",
+      "title": "Hackatec San Rafael",
+      "description": "Miembro del equipo Findme ganador del Hackatec San Rafael. Desarrollamos una app para jugar a la Busqueda del tesoro.",
+      "url": "https://x.com/hackatec_sr/status/739894325170032642"
+    },
+    {
+      "image": "/extra_2.jpg",
+      "title": "Certificado en Marketing Digital",
+      "description": "Curso básico de Marketing digital de Google Actívate.",
+      "url": "https://sites.google.com/view/curso-basico-marketing-digital/"
+    }
+  ]
+}
