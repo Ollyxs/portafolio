@@ -24,7 +24,7 @@ def index() -> rx.Component:
             info("Formación", DATA.training),
             extra(DATA.extras),
             rx.divider(),
-            footer(DATA.media),
+            footer(DATA, DATA.media),
             spacing=Size.MEDIUM.value,
             padding_x=EmSize.MEDIUM.value,
             padding_y=EmSize.BIG.value,
