@@ -37,6 +37,7 @@ def index() -> rx.Component:
 app = rx.App(
     stylesheets=STYLESHEETS,
     style=BASE_STYLE,
+    enable_state=False,
 )
 
 title = DATA.title
