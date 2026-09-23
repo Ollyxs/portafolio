@@ -1,57 +1,78 @@
 {
-  "title": "Lucas J. Ollarce (Ollyxs) | Portafolio",
-  "description": "Soy Lucas, estudiante de Ingeniería en Informática.",
+  "title": "Lucas Ollarce | Portafolio",
+  "description": "Portfolio de Lucas Ollarce - DevOps & Backend Developer",
   "image": "/avatar.jpg",
   "avatar": "/avatar.jpg",
-  "name": "Lucas J. Ollarce (Ollyxs)",
-  "skill": "Programador, Estudiante, Desarrollador Web",
-  "location": "Mendoza, Argentina",
+  "name": "Lucas Ollarce",
+  "skill": "Developer",
+  "location": "San Rafael, Mendoza, Argentina",
   "media": {
     "email": "lucasollarce@gmail.com",
-    "cv": "/data/cv.pdf",
+    "cv": "/data/lucasollarce-cv.pdf",
     "github": "https://github.com/ollyxs",
-    "likedin": "https://linkedin.com/in/lucas-ollarce-54b508232"
+    "likedin": "https://linkedin.com/in/lucas-ollarce"
   },
-  "about": "Soy Lucas, estudiante de Ingeniería en Informática en la Universidad de Mendoza. Me apasiona la programación, Linux y el desarrollo backend. Actualmente estoy aprendiendo nuevas tecnologías y mejorando mis habilidades en el desarrollo de software.",
+  "about": "Estudiante avanzado de Ingeniería en Informática (a 6 materias de graduarme) y Técnico Electromecánico, con orientación a DevOps y backend. Experiencia práctica demostrable en administración de servidores Linux, despliegue de contenedores, redes Zero-Trust y automatización con Python. Apasionado por la resolución de problemas de infraestructura, seguridad (Hardening) e integración de agentes de Inteligencia Artificial. Busco desarrollarme como DevOps implementando soluciones robustas y escalables.",
   "technologies": [
     {
       "icon": "devicon-python-plain",
       "name": "Python"
     },
     {
-      "icon": "devicon-bash-plain",
-      "name": "Shell script"
+      "icon": "devicon-docker-plain",
+      "name": "Docker"
     },
     {
-      "icon": "devicon-c-plain",
-      "name": "C"
+      "icon": "devicon-linux-plain",
+      "name": "Linux"
+    },
+    {
+      "icon": "devicon-git-plain",
+      "name": "Git"
+    },
+    {
+      "icon": "devicon-fastapi-plain",
+      "name": "FastAPI"
     },
     {
       "icon": "devicon-javascript-plain",
-      "name": "Javascript"
+      "name": "JavaScript"
+    },
+    {
+      "icon": "devicon-mysql-plain",
+      "name": "MySQL"
+    },
+    {
+      "icon": "devicon-sqlite-plain",
+      "name": "SQLite"
+    },
+    {
+      "icon": "devicon-redis-plain",
+      "name": "Redis"
+    },
+    {
+      "icon": "devicon-github-original",
+      "name": "GitHub Actions"
+    },
+    {
+      "icon": "devicon-bash-plain",
+      "name": "Bash"
     }
   ],
   "experience": [
     {
       "icon": "terminal",
       "title": "Fuesmen",
-      "subtitle": "Prácticas Profesionales",
-      "description": "Programo software para gestionar datos de aceleradores lineares",
-      "date": "2024 - Actualidad"
+      "subtitle": "Desarrollador Fullstack (Prácticas Profesionales)",
+      "description": "Programé un software a medida para la gestión y control de datos de aceleradores lineales utilizados en tratamientos médicos.",
+      "date": "2024 (4 Meses)"
     },
     {
-      "icon": "drumstick",
-      "title": "La Cocina de Olga",
-      "subtitle": "Atención al cliente",
-      "description": "Me encargo de la atención al cliente y la caja en una rotisería",
+      "icon": "store",
+      "title": "Rotisería",
+      "subtitle": "Atención al cliente y cajero",
+      "description": "Trabajo en un entorno de alta demanda, gestionando tiempos de cocción, atención al público y encargado de caja.",
       "date": "2021 - Actualidad"
-    },
-    {
-      "icon": "radio",
-      "title": "Rosario Sonando",
-      "subtitle": "Programador",
-      "description": "Desarrolle una app para escuchar radio online en Android",
-      "date": "2015 - 2017"
     }
   ],
   "projects": [
@@ -86,24 +107,59 @@
       ],
       "image": "/project_2.jpeg",
       "github": "https://github.com/Ollyxs/academic-scrapy"
+    },
+    {
+      "icon": "server",
+      "title": "Infraestructura Zero-Trust & Homelab Server",
+      "subtitle": "Administración de servidor local y VPS",
+      "description": "Administración de servidor local (Debian 13) y VPS (Oracle Cloud) mediante VPN en malla (Tailscale). Despliegue de servicios con Docker en redes privadas aisladas (proxy-net), proxy inverso (Nginx) y hardening del SO.",
+      "github": "https://github.com/ollyxs/homelab",
+      "technologies": [
+        {
+          "icon": "devicon-linux-plain",
+          "name": "Linux"
+        },
+        {
+          "icon": "devicon-docker-plain",
+          "name": "Docker"
+        },
+        {
+          "icon": "devicon-bash-plain",
+          "name": "Bash"
+        }
+      ]
+    },
+    {
+      "icon": "monitor-play",
+      "title": "DeskXR (Proyecto de Tesis)",
+      "subtitle": "Servidor backend local multiplataforma",
+      "description": "Servidor backend local multiplataforma para captura de escritorio y transmisión de video de muy baja latencia hacia múltiples clientes simultáneos, utilizando el protocolo WebRTC y autodescubrimiento en red.",
+      "technologies": [
+        {
+          "icon": "devicon-python-plain",
+          "name": "Python"
+        },
+        {
+          "icon": "devicon-javascript-plain",
+          "name": "WebRTC"
+        }
+      ]
     }
   ],
   "training": [
     {
-      "icon": "backpack",
-      "title": "Escuela N° 4117 - Ejercito de los Andes",
-      "subtitle": "Técnico en Equipos e Instalaciones Electromecánicas",
-      "description": "Secundario técnico enfocado en construcciones edilicias, automatización y electromeánica.",
-      "date": "Completado",
-      "certificate": "https://dti.mendoza.edu.ar/gem/ingreso/publico/escuela/1105/2"
-    },
-    {
       "icon": "graduation-cap",
       "title": "Universidad de Mendoza",
-      "subtitle": "Facultad de Ingeniería en Informática",
-      "description": "El Ingeniero en Informática es un profesional capacitado para definir y evaluar proyectos en términos de requerimientos de hardware, software de base y aplicación, recursos humanos, costos y eficiencias a nivel gerencial. Puede dirigir los proyectos desde el inicio hasta su implementación final. Cuenta con toda la base de formación ingenieril de las ciencias físico-matemáticas y con las herramientas de programación de sistemas tele informáticos y plataformas operativas, con especial énfasis en la teoría de la información.",
-      "date": "Cursando",
-      "certificate": "https://um.edu.ar/"
+      "subtitle": "Ingeniería en Informática (44/50 materias aprobadas)",
+      "description": "Especialización en Desarrollo de Software, Tecnologías Web, Redes de Computadoras, Inteligencia Artificial, Cloud Computing, Seguridad Informática, entre otros.",
+      "date": "Cursando"
+    },
+    {
+      "icon": "backpack",
+      "title": "Escuela N°4-117 Ejército de los Andes",
+      "subtitle": "Técnico en Equipos e Instalación Electromecánicas",
+      "description": "Especialización en electromecánica, automatización y sistemas PLC.",
+      "date": "Completado"
     }
   ],
   "extras": [
@@ -118,6 +174,18 @@
       "title": "Certificado en Marketing Digital",
       "description": "Curso básico de Marketing digital de Google Actívate.",
       "url": "https://sites.google.com/view/curso-basico-marketing-digital/"
+    },
+    {
+      "image": "/extra_3.png",
+      "title": "CTF 2026 - CE3 Argentina",
+      "description": "Participación en la competencia virtual Capture-the-Flag 2026 de CRDF Global y Sans Institute para fortalecer habilidades en ciberseguridad.",
+      "url": ""
+    },
+    {
+      "image": "",
+      "title": "Idioma",
+      "description": "Inglés (Básico)",
+      "url": ""
     }
   ]
 }

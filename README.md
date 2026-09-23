@@ -72,13 +72,13 @@ Principalmente puedes configurar el contenido y el aspecto gráfico del sitio we
 
 ## Despliegue
 
-![Vercel](https://img.shields.io/github/stars/vercel/vercel?label=Vercel&style=social)
+![GitHub Pages](https://img.shields.io/badge/github%20pages-121013?style=for-the-badge&logo=github&logoColor=white)
 
-El proyecto utiliza [Vercel](https://vercel.com) como hosting de recursos estáticos.
+El proyecto utiliza **GitHub Pages** como hosting de recursos estáticos.
 
-Se configura el despliegue automático desde los archivos [vercel.json](./vercel.json) y [build.sh](./build.sh).
+Se configura el despliegue automático desde el archivo de GitHub Actions [.github/workflows/config.yml](./.github/workflows/config.yml) y [build.sh](./build.sh).
 
-Aquí tienes la [demo](https://portafolio-template.vercel.app/).
+El proyecto se despliega automáticamente en la rama principal tras cada push.
 
 ## Curso de Python desde cero
 ### Aprende Python desde sus fundamentos

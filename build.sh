@@ -6,5 +6,6 @@ rm -rf public
 reflex init
 reflex export --frontend-only
 unzip frontend.zip -d public
+touch public/.nojekyll
 rm -f frontend.zip
 deactivate

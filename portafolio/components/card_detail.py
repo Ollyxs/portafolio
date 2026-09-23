@@ -7,14 +7,18 @@ from portafolio.styles.styles import IMAGE_HEIGHT, Size
 def card_detail(extra: Extra) -> rx.Component:
     return rx.card(
         rx.link(
-            rx.inset(
-                rx.image(
-                    src=extra.image,
-                    height=IMAGE_HEIGHT,
-                    width="100%",
-                    object_fit="cover"
+            rx.cond(
+                extra.image != "",
+                rx.inset(
+                    rx.image(
+                        src=extra.image,
+                        height=IMAGE_HEIGHT,
+                        width="100%",
+                        object_fit="cover"
+                    ),
+                    pb=Size.DEFAULT.value
                 ),
-                pb=Size.DEFAULT.value
+                rx.fragment()
             ),
             rx.text.strong(extra.title),
             rx.text(
