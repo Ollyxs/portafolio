@@ -17,12 +17,10 @@ def info_detail(info: Info) -> rx.Component:
                     size=Size.SMALL.value,
                     color_scheme="gray"
                 ),
-                rx.cond(
-                    info.technologies,
-                    rx.flex(
+                rx.flex(
                         *[
                             rx.badge(
-                                rx.box(class_name=technology.icon),
+                                rx.box(class_name=technology.icon) if technology.icon != "" else rx.fragment(),
                                 technology.name,
                                 color_scheme="gray"
                             )
@@ -30,23 +28,16 @@ def info_detail(info: Info) -> rx.Component:
                         ],
                         wrap="wrap",
                         spacing=Size.SMALL.value
-                    )
-                ),
+                    ) if info.technologies else rx.fragment(),
                 rx.hstack(
-                    rx.cond(
-                        info.url != "",
-                        icon_button(
+                    icon_button(
                             "link",
                             info.url
-                        )
-                    ),
-                    rx.cond(
-                        info.github != "",
-                        icon_button(
+                        ) if info.url != "" else rx.fragment(),
+                    icon_button(
                             "github",
                             info.github
-                        )
-                    )
+                        ) if info.github != "" else rx.fragment()
                 ),
                 spacing=Size.SMALL.value,
                 width="100%"
@@ -54,29 +45,20 @@ def info_detail(info: Info) -> rx.Component:
             spacing=Size.DEFAULT.value,
             width="100%"
         ),
-        rx.cond(
-            info.image != "",
-            rx.image(
+        rx.image(
                 src=info.image,
                 height=IMAGE_HEIGHT,
                 width="auto",
                 border_radius=EmSize.DEFAULT.value,
                 object_fit="cover"
-            )
-        ),
+            ) if info.image != "" else rx.fragment(),
         rx.vstack(
-            rx.cond(
-                info.date != "",
-                rx.badge(info.date)
-            ),
-            rx.cond(
-                info.certificate != "",
-                icon_button(
+            rx.badge(info.date) if info.date != "" else rx.fragment(),
+            icon_button(
                     "shield-check",
                     info.certificate,
                     solid=True
-                )
-            ),
+                ) if info.certificate != "" else rx.fragment(),
             spacing=Size.SMALL.value,
             align="end"
         ),

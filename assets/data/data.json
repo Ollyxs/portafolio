@@ -136,11 +136,27 @@
       "description": "Servidor backend local multiplataforma para captura de escritorio y transmisión de video de muy baja latencia hacia múltiples clientes simultáneos, utilizando el protocolo WebRTC y autodescubrimiento en red.",
       "technologies": [
         {
-          "icon": "devicon-python-plain",
-          "name": "Python"
+          "icon": "devicon-unity-plain",
+          "name": "Unity"
+        },
+        {
+          "icon": "devicon-csharp-plain",
+          "name": "C#"
         },
         {
           "icon": "devicon-javascript-plain",
+          "name": "JavaScript"
+        },
+        {
+          "icon": "devicon-html5-plain",
+          "name": "HTML"
+        },
+        {
+          "icon": "devicon-css3-plain",
+          "name": "CSS"
+        },
+        {
+          "icon": "",
           "name": "WebRTC"
         }
       ]

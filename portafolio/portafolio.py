@@ -37,11 +37,6 @@ def index() -> rx.Component:
 app = rx.App(
     stylesheets=STYLESHEETS,
     style=BASE_STYLE,
-    theme=rx.theme(
-        appearance="dark",
-        accent_color="grass",
-        radius="full"
-    )
 )
 
 title = DATA.title

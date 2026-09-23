@@ -1,6 +1,5 @@
 import json
 
-
 class Media:
     def __init__(self, email, cv, github, likedin):
         self.email = email
@@ -8,12 +7,10 @@ class Media:
         self.github = github
         self.likedin = likedin
 
-
 class Technology:
     def __init__(self, icon, name):
         self.icon = icon
         self.name = name
-
 
 class Info:
     def __init__(self, icon, title, subtitle, description, date="", certificate="", technologies=[], image="", url="", github=""):
@@ -28,7 +25,6 @@ class Info:
         self.url = url
         self.github = github
 
-
 class Extra:
     def __init__(self, image, title, description, url):
         self.image = image
@@ -36,24 +32,10 @@ class Extra:
         self.description = description
         self.url = url
 
-
 class Data:
     def __init__(
-        self,
-            title,
-            description,
-            image,
-            avatar,
-            name,
-            skill,
-            location,
-            media,
-            about,
-            technologies,
-            experience,
-            projects,
-            training,
-            extras
+        self, title, description, image, avatar, name, skill, location, media, about,
+        technologies, experience, projects, training, extras
     ):
         self.title = title
         self.description = description
@@ -69,7 +51,6 @@ class Data:
         self.projects = [Info(**info) for info in projects]
         self.training = [Info(**info) for info in training]
         self.extras = [Extra(**info) for info in extras]
-
 
 with open("assets/data/data.json") as file:
     json_data = json.load(file)
