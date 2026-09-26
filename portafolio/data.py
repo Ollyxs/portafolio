@@ -13,7 +13,7 @@ class Technology:
         self.name = name
 
 class Info:
-    def __init__(self, icon, title, subtitle, description, date="", certificate="", technologies=[], image="", url="", github=""):
+    def __init__(self, icon, title, subtitle, description, date="", certificate="", technologies=[], image="", url="", github="", github2=""):
         self.icon = icon
         self.title = title
         self.subtitle = subtitle
@@ -24,6 +24,7 @@ class Info:
         self.image = image
         self.url = url
         self.github = github
+        self.github2 = github2
 
 class Extra:
     def __init__(self, image, title, description, url):

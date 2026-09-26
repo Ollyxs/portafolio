@@ -1,78 +1,25 @@
-# Portafolio "perfecto" para programadores
+# Lucas Ollarce - Portafolio Personal
 
-[![Python](https://img.shields.io/badge/Python-3.11+-yellow?style=for-the-badge&logo=python&logoColor=white&labelColor=101010)](https://python.org)
-[![Reflex](https://img.shields.io/badge/Reflex-0.4.5+-5646ED?style=for-the-badge&logo=reflex&logoColor=white&labelColor=101010)](https://reflex.dev)
+Portafolio personal web interactivo construido enteramente en **Python** utilizando el framework [Reflex](https://reflex.dev/).
 
-[![HTML](https://img.shields.io/badge/HTML-orange?style=for-the-badge&logo=html5&logoColor=white&labelColor=101010)](https://developer.mozilla.org/es/docs/Web/HTML)
-[![CSS](https://img.shields.io/badge/CSS-blue?style=for-the-badge&logo=css3&logoColor=white&labelColor=101010)](https://developer.mozilla.org/es/docs/Web/CSS)
-[![JavaScript](https://img.shields.io/badge/JavaScript-yellow?style=for-the-badge&logo=javascript&logoColor=white&labelColor=101010)](https://developer.mozilla.org/es/docs/Web/JavaScript)
+**URL en vivo:** [https://ollyxs.com.ar](https://ollyxs.com.ar)
 
-## Plantilla de portafolio web minimalista configurable a nivel gráfico y de contenido.
+## Tecnologías
 
-Desarrollado utilizando [Python](https://python.org) y [Reflex](https://reflex.dev), disponible para desplegar de forma estática (HTML, CSS, JS).
+* **Backend & Frontend:** Reflex (Python puro)
+* **Estilos:** Radix Themes / CSS in JS
+* **Despliegue:** GitHub Pages
 
-#### Proyecto realizado durante emisiones en directo desde [Twitch](https://twitch.tv/mouredev)
-> ##### Si consideras útil el proyecto, apóyalo haciendo "★ Star" en el repositorio. ¡Gracias!
+## Modificaciones Técnicas
 
-## Portafolio
+Este proyecto toma como base una plantilla inicial, sobre la cual realicé los siguientes trabajos de ingeniería y adaptación:
 
-<a href="https://youtu.be/zFbTXe1yFGA"><img src="http://i3.ytimg.com/vi/zFbTXe1yFGA/maxresdefault.jpg" style="height: 50%; width:50%;"/></a>
-
-¿Qué información debo añadir en mi portafolio como desarrollador? En [este](https://youtu.be/zFbTXe1yFGA) vídeo explico el por qué de cada apartado.
-
-Tras el análisis, elaboré un esquema para reflejar la información obligatoria, recomendable, opcional y desaconsejada de la web.
-
-![Esquema portafolio](https://mouredev.com/images/portafolio.jpg)
-
-Con esta premisa he desarrollado este proyecto web que refleja de manera real toda la información de nuestro "portafolio perfecto".
-
-## Proyecto
-
-Plantilla web para programadores desarrollada con la premisa de crear el "portafolio perfecto", con todas las secciones e información fundamental.
-
-<a href="./demo.png"><img src="./demo.png" style="height: 50%; width:50%;"/></a>
-
-* Avatar y datos principales
-* Información de contacto, CV y redes
-* Sobre mí
-* Tecnologías
-* Experiencia
-* Proyectos
-* Formación
-* Extra
-
-**Demo: [https://portafoliotemplate.dev](https://portafoliotemplate.dev)**
-
-<a href="./live_demo.png"><img src="./live_demo.png" style="height: 50%; width:50%;"/></a>
-
-## Instalación
-
-Puedes seguir la [guía oficial](https://reflex.dev/docs/getting-started/installation/) de Reflex.
-
-Clona el proyecto, crea un entorno virtual, instala Reflex y ejecútalo para acceder al proyecto desde [http://localhost:3000](http://localhost:3000).
-
-`pip install reflex`
-
-`reflex init`
-
-`reflex run`
-
-## Configuración
-
-Principalmente puedes configurar el contenido y el aspecto gráfico del sitio web.
-
-* Contenido: Edita el archivo [data.json](./assets/data/data.json) con la información de tu portafolio.
-	* Campos opcionales dentro de `experience`, `projects` y `training`: *technologies, date, certificate, image, url y github*.
-	* Los iconos generales se corresponden con los identificadores de [Lucide icons](https://lucide.dev/icons/).
-	* Los iconos de las tecnologías se corresponden con los identificadores de [Devicon](https://devicon.dev/).
-* Tema: Edita el tema gráfico de la web.
-	* Descomenta la línea `rx.theme_panel()` en `portafolio.py`. 
-	* Inicia el proyecto, selecciona la configuración que quieras y pulsa `Copy Theme`.
-	* Añade esa información dentro de `theme=rx.theme()` en `portafolio.py`.
+* Migración de Infraestructura (CI/CD): Migración del sistema de despliegue original de Vercel hacia GitHub Pages, implementando automatización de flujos de trabajo (GitHub Actions) para la construcción estática del proyecto.
+* **Migración y Refactorización:** Actualización del código base para garantizar la compatibilidad con la última versión de Reflex.
+* **Customización de UI/UX:** Adaptación de componentes visuales, colores y estructura para alinearlos a mi marca personal.
+* **Optimización:** Limpieza de dependencias y adaptación del contenido estático para mejorar la velocidad de carga.
 
 ## Despliegue
-
-![GitHub Pages](https://img.shields.io/badge/github%20pages-121013?style=for-the-badge&logo=github&logoColor=white)
 
 El proyecto utiliza **GitHub Pages** como hosting de recursos estáticos.
 
@@ -80,33 +27,31 @@ Se configura el despliegue automático desde el archivo de GitHub Actions [.gith
 
 El proyecto se despliega automáticamente en la rama principal tras cada push.
 
-## Curso de Python desde cero
-### Aprende Python desde sus fundamentos
+## Despliegue Local
 
-<a href="https://github.com/mouredev/hello-python"><img src="https://raw.githubusercontent.com/mouredev/Hello-Python/main/Images/header.jpg"/></a>
+Si querés correr este proyecto en tu entorno local:
 
-Si quieres aprender desde cero, tienes gratis todos los tutoriales que he creado. Más de 37 horas desde fundamentos, frontend, backend o integración con IA.
+1. Cloná el repositorio:
 
-[![Curso Python](https://img.shields.io/github/stars/mouredev/hello-python?label=Curso%20Python%20desde%20cero&style=social)](https://github.com/mouredev/hello-python)
+  ```bash
+    git clone https://github.com/Ollyxs/portafolio.git
+  ```
 
-Si quieres unirte a nuestra comunidad de desarrollo, aprender programación de Apps, mejorar tus habilidades y ayudar a la continuidad del proyecto, puedes encontrarnos en:
+1. Creá un entorno virtual e instalá las dependencias:
 
-[![Twitch](https://img.shields.io/badge/Twitch-Programación_en_directo-9146FF?style=for-the-badge&logo=twitch&logoColor=white&labelColor=101010)](https://twitch.tv/mouredev)
-[![Discord](https://img.shields.io/badge/Discord-Servidor_de_la_comunidad-5865F2?style=for-the-badge&logo=discord&logoColor=white&labelColor=101010)](https://mouredev.com/discord)
-[![Link](https://img.shields.io/badge/Links_de_interés-moure.dev-39E09B?style=for-the-badge&logo=Linktree&logoColor=white&labelColor=101010)](https://moure.dev)
+  ```bash
+  python -m venv venv
+  source venv/bin/activate  # En Windows: venv\Scripts\activate
+  pip install -r requirements.txt
+  ```
 
-## ![https://mouredev.com](https://raw.githubusercontent.com/mouredev/mouredev/master/mouredev_emote.png) Hola, mi nombre es Brais Moure.
-### Freelance full-stack iOS & Android engineer
+1. Inicializá y corré Reflex:
 
-[![YouTube Channel Subscribers](https://img.shields.io/youtube/channel/subscribers/UCxPD7bsocoAMq8Dj18kmGyQ?style=social)](https://youtube.com/mouredevapps?sub_confirmation=1)
-[![Twitch Status](https://img.shields.io/twitch/status/mouredev?style=social)](https://twitch.com/mouredev)
-[![Discord](https://img.shields.io/discord/729672926432985098?style=social&label=Discord&logo=discord)](https://mouredev.com/discord)
-[![Twitter Follow](https://img.shields.io/twitter/follow/mouredev?style=social)](https://twitter.com/mouredev)
-![GitHub Followers](https://img.shields.io/github/followers/mouredev?style=social)
-![GitHub Followers](https://img.shields.io/github/stars/mouredev?style=social)
+  ```bash
+  reflex init
+  reflex run
+```
 
-Soy ingeniero de software desde 2010. Desde 2018 combino mi trabajo desarrollando Apps con la creación de contenido formativo sobre programación y tecnología en diferentes redes sociales como **[@mouredev](https://moure.dev)**.
+## Créditos
 
-### En mi perfil de GitHub tienes más información
-
-[![Web](https://img.shields.io/badge/GitHub-MoureDev-14a1f0?style=for-the-badge&logo=github&logoColor=white&labelColor=101010)](https://github.com/mouredev)
+Construido a partir de una plantilla original de [MoureDev](https://github.com/mouredev/portafolio-template), refactorizada y mantenida por Lucas Ollarce.

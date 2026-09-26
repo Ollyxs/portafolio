@@ -15,7 +15,8 @@ def info_detail(info: Info) -> rx.Component:
                 rx.text(
                     info.description,
                     size=Size.SMALL.value,
-                    color_scheme="gray"
+                    color_scheme="gray",
+                    white_space="pre-line"
                 ),
                 rx.flex(
                         *[
@@ -37,7 +38,11 @@ def info_detail(info: Info) -> rx.Component:
                     icon_button(
                             "github",
                             info.github
-                        ) if info.github != "" else rx.fragment()
+                        ) if info.github != "" else rx.fragment(),
+                    icon_button(
+                            "github",
+                            info.github2
+                        ) if info.github2 != "" else rx.fragment()
                 ),
                 spacing=Size.SMALL.value,
                 width="100%"

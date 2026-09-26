@@ -77,6 +77,50 @@
   ],
   "projects": [
     {
+      "icon": "shield-check",
+      "title": "LinacControl",
+      "subtitle": "Sistema de gestión para aceleradores lineales",
+      "description": "Sistema de gestión full-stack para control de calidad de aceleradores lineales y tratamientos de radioterapia desarrollado para Fuesmen.",
+      "technologies": [
+        {
+          "icon": "devicon-python-plain",
+          "name": "Python"
+        },
+        {
+          "icon": "devicon-fastapi-plain",
+          "name": "FastAPI"
+        },
+        {
+          "icon": "devicon-flask-original",
+          "name": "Flask"
+        },
+        {
+          "icon": "",
+          "name": "Pydantic"
+        },
+        {
+          "icon": "devicon-mysql-plain",
+          "name": "MySQL"
+        },
+        {
+          "icon": "devicon-bootstrap-plain",
+          "name": "Bootstrap"
+        },
+        {
+          "icon": "",
+          "name": "JWT"
+        },
+        {
+          "icon": "devicon-html5-plain",
+          "name": "HTML"
+        }
+      ],
+      "image": "",
+      "url": "",
+      "github": "https://github.com/Ollyxs/linaccontrol",
+      "github2": "https://github.com/Ollyxs/linaccontrol-gui"
+    },
+    {
       "icon": "brain-circuit",
       "title": "IA-Brain-Tumor",
       "subtitle": "Inteligencia Artificial",
@@ -113,7 +157,6 @@
       "title": "Infraestructura Zero-Trust & Homelab Server",
       "subtitle": "Administración de servidor local y VPS",
       "description": "Administración de servidor local (Debian 13) y VPS (Oracle Cloud) mediante VPN en malla (Tailscale). Despliegue de servicios con Docker en redes privadas aisladas (proxy-net), proxy inverso (Nginx) y hardening del SO.",
-      "github": "https://github.com/ollyxs/homelab",
       "technologies": [
         {
           "icon": "devicon-linux-plain",
@@ -127,13 +170,15 @@
           "icon": "devicon-bash-plain",
           "name": "Bash"
         }
-      ]
+      ],
+      "image": "/project_3.png",
+      "github": "https://github.com/ollyxs/homelab"
     },
     {
       "icon": "monitor-play",
       "title": "DeskXR (Proyecto de Tesis)",
-      "subtitle": "Servidor backend local multiplataforma",
-      "description": "Servidor backend local multiplataforma para captura de escritorio y transmisión de video de muy baja latencia hacia múltiples clientes simultáneos, utilizando el protocolo WebRTC y autodescubrimiento en red.",
+      "subtitle": "Sistema de streaming inmersivo AR/VR",
+      "description": "Sistema inmersivo plug & play para visualizar tu PC en Realidad Aumentada (AR) o Virtual (VR) a través de la red local. Consta de un Servidor multiplataforma que transmite el escritorio en ultra baja latencia usando WebRTC/UDP, y un Cliente móvil (Unity/ARCore) que renderiza el flujo en entornos 3D.",
       "technologies": [
         {
           "icon": "devicon-unity-plain",
@@ -159,7 +204,8 @@
           "icon": "",
           "name": "WebRTC"
         }
-      ]
+      ],
+      "image": "/project_4.png"
     }
   ],
   "training": [
